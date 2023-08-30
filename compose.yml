@@ -1,0 +1,8 @@
+services:
+  web:
+    build: .
+    environment:
+       - ASPNETCORE_URLS=http://+:5000
+    ports:
+      - 8080:5000
+    command: ["dotnet", "app/Kata.Banking.Web.dll"]

@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+        <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.5.0" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\Kata.Banking.Core\Kata.Banking.Core.csproj" />
+    </ItemGroup>
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="app\publish\web.config" />
+      <_ContentIncludedByDefault Remove="app\build\appsettings.Development.json" />
+      <_ContentIncludedByDefault Remove="app\build\appsettings.json" />
+      <_ContentIncludedByDefault Remove="app\build\Kata.Banking.Core.deps.json" />
+      <_ContentIncludedByDefault Remove="app\build\Kata.Banking.Data.deps.json" />
+      <_ContentIncludedByDefault Remove="app\build\Kata.Banking.Web.deps.json" />
+      <_ContentIncludedByDefault Remove="app\build\Kata.Banking.Web.runtimeconfig.json" />
+      <_ContentIncludedByDefault Remove="app\publish\app\build\appsettings.Development.json" />
+      <_ContentIncludedByDefault Remove="app\publish\app\build\appsettings.json" />
+      <_ContentIncludedByDefault Remove="app\publish\app\build\Kata.Banking.Core.deps.json" />
+      <_ContentIncludedByDefault Remove="app\publish\app\build\Kata.Banking.Data.deps.json" />
+      <_ContentIncludedByDefault Remove="app\publish\app\build\Kata.Banking.Web.deps.json" />
+      <_ContentIncludedByDefault Remove="app\publish\app\build\Kata.Banking.Web.runtimeconfig.json" />
+      <_ContentIncludedByDefault Remove="app\publish\appsettings.Development.json" />
+      <_ContentIncludedByDefault Remove="app\publish\appsettings.json" />
+      <_ContentIncludedByDefault Remove="app\publish\Kata.Banking.Web.deps.json" />
+      <_ContentIncludedByDefault Remove="app\publish\Kata.Banking.Web.runtimeconfig.json" />
+    </ItemGroup>
+</Project>
